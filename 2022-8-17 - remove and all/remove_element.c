@@ -31,7 +31,7 @@ int main()
     int size;
     int length;
     int *arr;
-    printf("Enter the size of the arra: ");
+    printf("Enter the size of the array: ");
     scanf("%d", &size);
     printf("\n");
     arr = (int *)malloc(size * sizeof(int));
